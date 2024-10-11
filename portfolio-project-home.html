@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dare2DreamWild Portfolio</title>
+        <link rel="stylesheet" href="./portfolio-project-home.css" />
+        <!--<h3>The Leadership Lab</h3>-->
+    <style>
+        /* Styles for the hidden content */
+        #photo-description {
+            display: none;
+            margin-top: 20px;
+        }
+
+        #photo {
+            width: 300px;
+            height: auto;
+        }
+
+        .reveal-button {
+            cursor: pointer;
+            color: #8be21c;
+            text-decoration: underline;
+        }
+        /* Styles for the hidden content */
+        #photo-description2 {
+            display: none;
+            margin-top: 20px;
+        }
+
+        #photo2 {
+            width: 300px;
+            height: auto;
+        }
+
+        .reveal-button2 {
+            cursor: pointer;
+            color: #8be21c;
+            text-decoration: underline;
+        }
+    </style>
+      
+    </head>
+    <body>
+        <nav>
+            <h2 id="dream-wild">Dare2DreamWild</h2>
+            <ul class="navigation-items">
+              <li class="navigation-item"><a href="#about-me">About JB</a></li>
+              <li class="navigation-item"><a href="#skills">Skills</a></li>
+              <li class="navigation-item"><a href="#projects">Projects</a></li>
+              <li class="navigation-item"><a href="./portfolio-project-contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="about-jb">
+                <div class="slider">
+                    <button id="prevBtn">&#10094;</button> <!-- Left arrow -->
+                    
+                    <img id="imageSlider" src="./Untitled-design.png" alt="Your Photo" width="300px">
+                    
+                    <button id="nextBtn">&#10095;</button> <!-- Right arrow -->
+                  </div>
+                <div id="about-jb-container">
+                    <div id="about-jb-text-container">
+                        <p id="jb-description"><strong id="hello">Hi, I'm JB!</strong>
+                            <br>I'm a <em>Creative Consultant</em> and <em>Digital Designer</em> empowering clients and organizations<br> to optimize their digital presence and online business processes for maximum engagement<br> while prioritizing the customer experience. 
+                            <br> I design <em>compelling</em> graphics and multimedia content,<br> bringing messages to life through vibrant visuals and thought provoking images. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Software</h3>
+            <ul>
+                <li>Adobe Creative Suite</li>
+                <li>Affinity Creative Suite</li>
+                <li>Canva</li>
+            </ul>
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+            <h3>Services</h3>
+            <ul>
+                <li>Brand & Web Design</li>
+                <li>Web Development</li>
+                <li>Content Creation</li>
+                <li>Design Days</li>
+            </ul>
+        </section>
+        
+     
+        <br>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="Leadership-Lab-container">
+                <h3>The Leadership Lab</h3>
+
+    <!-- Clickable text -->
+    <p class="reveal-button" id="reveal-text">Project Description</p>
+
+    <!-- Hidden content -->
+    <div id="photo-description">
+        <img id="photo" src="logo-design.png" alt="Photo">
+        <p id="description">The Leadership Lab is a new training series created by Dr. Pam Ross geared at <br>training leaders how to identify and cultivate key standards for their organization.</p>
+    </div>
+            </div>
+            <div id="The-fast-lane-container">
+                <h3>The Fast Lane</h3>
+
+    <!-- Clickable text -->
+    <p class="reveal-button2" id="reveal-text2">Project Description</p>
+
+    <!-- Hidden content -->
+    <div id="photo-description2">
+        <img id="photo2" src="fast-lane.png" alt="Photo">
+        <p id="description2">Apostle Kimberly's upcoming project The Fast Lane is focused on teaching others<br> how the spiritual discipline of fasting accelerates your spiritual life.</p>
+    </div>
+            </div>
+        <br>
+        <br>
+        <br>
+
+    </section>
+        <section id="contact">
+            <a href="portfolio-project-contact.html">
+                <button id="contact-me">Contact Me</button>
+              </a>
+              
+        </section>
+
+        <script  src="./portfolio-project-home.js"></script>  
+    </body>
+</html>

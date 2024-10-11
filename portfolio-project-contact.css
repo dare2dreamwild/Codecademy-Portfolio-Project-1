@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+}
+h2, li, h3, p {
+    font-family: Poppins;
+}
+h2 {
+  color: #8be21c;
+  font-weight: 900;
+}
+ul {
+    list-style: none;
+    margin-bottom: 50px;
+    
+}
+
+ul li {
+    display: inline-block; /* Makes each list item appear on the same line */
+    margin-right: 20px; /* Adds some spacing between the items */

@@ -1,0 +1,63 @@
+* {
+    text-align: center;
+}
+h2, p, li, h3,
+#contact-me {
+    font-family: Poppins;
+}
+h2 {
+  color: #8be21c;
+}
+ul {
+    list-style: none;
+    margin-bottom: 50px;
+    
+}
+
+ul li {
+    display: inline-block; /* Makes each list item appear on the same line */
+    margin-right: 20px; /* Adds some spacing between the items */
+    
+}
+
+  #hello,
+  #dream-wild,
+  h2 {
+    font-weight: 900;
+  }
+
+
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 50px; /* Adjust to match the image width */
+    position: relative;
+  }
+  
+  #prevBtn, 
+  #nextBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #prevBtn {
+    left: -200px;
+  }
+  
+  #nextBtn {
+    right: -200px;
+  }
+  
+  img {
+    border-radius: 10px;
+  }
+
+  #skills {
+    margin-top: 65px;
+  }
+  
